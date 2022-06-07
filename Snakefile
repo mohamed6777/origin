@@ -11,4 +11,10 @@ rule annotate_variants:
        "snpSift annotate -exists -v /fast/projects//cubit/work/18.12/static_data/db/gnomAD/release2.0.2/GRCh37/gnomad.exomes.r2.0.2.sites.vcf.gz /dev/stdin | "
        "snpsift filter -n ' (exists ID) & !( ID = 'ExAC' )' /dev/stdin > {output}"
 #man git is cool
+<<<<<<< HEAD
 #new branch added
+=======
+
+
+#change to be merged
+>>>>>>> master
