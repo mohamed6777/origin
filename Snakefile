@@ -12,6 +12,12 @@ rule annotate_variants:
        "snpsift filter -n ' (exists ID) & !( ID = 'ExAC' )' /dev/stdin > {output}"
 #man git is cool
 
+#new branch added
+
+
 
 #change to be merged
+
+
 change on github
+
